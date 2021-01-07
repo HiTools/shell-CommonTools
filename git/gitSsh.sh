@@ -24,4 +24,14 @@ if [ -z "$ID_FILE" ]; then
 fi
 
 echo "正在配置的ID为：$ID_FILE"
+
+if [[ $ID_FILE == *.pub ]]; then
+    ID_FILE=${ID_FILE%????}
+fi
+
+if [[ $ID_FILE == /Users* ]]; then
+    ID_FILE="~/.ssh${ID_FILE##*.ssh}"
+fi
+
+echo "修正文件路径：$ID_FILE"
 git config core.sshCommand "ssh -i $ID_FILE -F /dev/null"
