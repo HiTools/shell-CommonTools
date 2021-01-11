@@ -16,12 +16,12 @@
 
 - [enbrew.sh](./brew/cnbrew.sh) 一键切换为 Brew官方源
 
-备注：[清华大学官方源使用帮助]（https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/）
+备注：[清华大学官方源使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)
 
 ### 0x03 完全清理Idea 以及AndroidStudio 脚本
 
-- cleanAS.sh  一键清理AndroidStudio 卸载残留（适配AS4.1）
-- cleanIdea.sh 一键清理Idea的卸载残留（适配IDEA 2020.3）
+- [cleanAS.sh](./cleanAS.sh) 一键清理AndroidStudio 卸载残留（适配AS4.1）
+- [cleanIdea.sh](./cleanIdea.sh) 一键清理Idea的卸载残留（适配IDEA 2020.3）
 
 备注：目前脚本只适用于Mac端应用，Linux和Win暂时不支持
 
